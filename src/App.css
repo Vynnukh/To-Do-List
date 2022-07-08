@@ -2,14 +2,18 @@
   margin: 5px;
   padding: 0;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-color: azure;
+  background-color: darkgreen;
+}
+
+h1, label, h2{
+  color: whitesmoke;
 }
 
 button{
   height: 50px;
   width: 100px;
   background-color: maroon;
-  color: white;
+  color: whitesmoke;
   border-radius: 5px;
   border-color: antiquewhite;
   border-style: ridge;
@@ -17,13 +21,13 @@ button{
   cursor: pointer;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   letter-spacing: 1px;
-  transition: all 0.1s ease-out;
+  transition: all 0.3s ease-out;
   
 }
 
 button:hover {
   background-color: maroon;
-  color: #fff;
+  color: whitesmoke;
   transform:scale(1.10);
 }
 
@@ -39,7 +43,7 @@ button:active {
 
 .formStyle{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .box{
@@ -55,7 +59,6 @@ button:active {
 .genericStyle{
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
 }
 
 

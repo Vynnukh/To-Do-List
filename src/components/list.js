@@ -7,7 +7,7 @@ let List = ({task, handleClick}) => {
     return (
         <div className="formStyle">
             {complete ? (
-                <h2 style={{color: "blue"}}>
+                <h2 style={{color: "bisque"}}>
                     {task} : completed
                 </h2>
             ) : (

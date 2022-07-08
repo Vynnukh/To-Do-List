@@ -38,3 +38,11 @@ it("Should display something once the add task button has been clicked", () => {
   const result = screen.findAllByRole()
   expect.anything(result)
 })
+
+it("Should detect a result", () => {
+  render(<App/>)
+  const submitButton = screen.getByText(/add a task/i)
+  fireEvent.click(submitButton)
+  const result = screen.findAllByRole("object")
+  expect.objectContaining(result)
+})
